@@ -1,5 +1,5 @@
 //Socket
-const socket = io('https://textty.herokuapp.com/')
+const socket = io()
 
 //DOM
 const message = document.getElementById('messageInput')
